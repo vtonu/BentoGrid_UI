@@ -13,7 +13,7 @@ function App() {
         left: '50%',
         transform: 'translate(-50%, -50%)',
       }}>
-      <Box>
+      <Box sx={{ pt: 2 }}>
         {/* <FixedSpacing /> */}
         <HeaderCardOutline />
         <OutlinedCard />

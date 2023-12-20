@@ -7,7 +7,7 @@ export default function OutlinedCard({ imageUrl }) {
   return (
     <Box sx={{ minWidth: 150 }}>
       <Card variant="outlined">
-        <CardContent sx={{ padding: 1 }}>
+        <CardContent sx={{ padding: 0.9 }}>
           <img
             src={imageUrl}
             alt="Outlined Card"
