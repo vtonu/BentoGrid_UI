@@ -16,20 +16,35 @@ const bull = (
 const card = (
   <React.Fragment>
     <CardContent sx={{ display: 'flex', justifyContent: 'center' }}>
-      <Typography sx={{ fontSize: 13 }} color="text.secondary">
+      <Box
+        sx={{
+          display: 'flex',
+        }}>
         <Box
           sx={{
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
+            pl: 1,
           }}>
-          <ButtonGroup variant="text" aria-label="text button group" color="inherit" size="small">
-            <Button>HOME</Button>
-            <Button>ABOUT</Button>
-            <Button>INFO</Button>
-          </ButtonGroup>
+          <Button variant="outlined" color="info" size="small">
+            HOME
+          </Button>
         </Box>
-      </Typography>
+        <Box
+          sx={{
+            pl: 1,
+          }}>
+          <Button variant="outlined" color="info" size="small">
+            INFO
+          </Button>
+        </Box>
+        <Box
+          sx={{
+            pl: 1,
+          }}>
+          <Button variant="outlined" color="info" size="small">
+            STORAGE
+          </Button>
+        </Box>
+      </Box>
     </CardContent>
   </React.Fragment>
 );
