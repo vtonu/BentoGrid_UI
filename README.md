@@ -1,6 +1,6 @@
-React App + Material UI v5 GUI Demo
+React App + Material UI (BentoGrid Style w/ Masonry Cards)
 
-https://github.com/vtonu/material_ui_box/assets/56773210/1cc75999-c41b-4d96-8d32-d87158d433ca
+![image](https://github.com/vtonu/BentoGrid_UI/assets/56773210/bdc8146a-6f7b-4fe9-bb76-bb5a7e556e7a)
 
 ## Available Scripts
 
