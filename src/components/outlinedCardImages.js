@@ -5,7 +5,7 @@ import CardContent from '@mui/material/CardContent';
 
 export default function OutlinedCard({ imageUrl }) {
   return (
-    <Box sx={{ minWidth: 150 }}>
+    <Box sx={{ minWidth: 150, boxShadow: 1 }}>
       <Card variant="outlined">
         <CardContent sx={{ padding: 0.9 }}>
           <img
