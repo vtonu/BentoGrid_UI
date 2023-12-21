@@ -5,12 +5,6 @@ import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 
-const bull = (
-  <Box component="span" sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}>
-    •
-  </Box>
-);
-
 const card = (
   <React.Fragment>
     <CardContent>
@@ -24,7 +18,7 @@ const card = (
             pl: 1,
           }}>
           <Button variant="outlined" sx={{ color: '#fbc02d' }} color="error" size="small">
-            HOME
+            Safe
           </Button>
         </Box>
         <Box
@@ -32,7 +26,7 @@ const card = (
             pl: 1,
           }}>
           <Button variant="outlined" sx={{ color: '#fbc02d' }} color="error" size="small">
-            INFO
+            Disk
           </Button>
         </Box>
         <Box
@@ -40,13 +34,25 @@ const card = (
             pl: 1,
           }}>
           <Button variant="outlined" sx={{ color: '#fbc02d' }} color="error" size="small">
-            STORAGE
+            Info
+          </Button>
+        </Box>
+        <Box
+          sx={{
+            pl: 1,
+          }}>
+          <Button variant="outlined" sx={{ color: '#fbc02d' }} color="error" size="small">
+            Storage
           </Button>
         </Box>
 
         <Box>
-          <Button variant="outlined" sx={{ color: '#fbc02d' }} color="error" size="small">
-            <CloseOutlinedIcon sx={{ color: '#fbc02d', p: 0.4 }}></CloseOutlinedIcon>
+          <Button
+            variant="outlined"
+            sx={{ color: '#fbc02d', minWidth: 0 }}
+            color="error"
+            size="small">
+            <CloseOutlinedIcon sx={{ color: '#fbc02d', p: 0.5 }}></CloseOutlinedIcon>
           </Button>
         </Box>
       </Box>

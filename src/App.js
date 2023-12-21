@@ -1,7 +1,6 @@
-import FixedSpacing from './components/masonryUI';
-import OutlinedCard from './components/masonryCardImages';
+/* import FixedSpacing from './components/masonryUI'; */
 import Box from '@mui/material/Box';
-import HeaderCardOutline from './components/headerCard';
+import HeaderCardOutline2 from './components/wholeGUIBox';
 
 function App() {
   return (
@@ -13,13 +12,9 @@ function App() {
         left: '50%',
         transform: 'translate(-50%, -50%)',
       }}>
-      <Box sx={{ pt: 2 }}>
-        {/* <FixedSpacing /> */}
-        <HeaderCardOutline />
-        <OutlinedCard />
-      </Box>
+      <HeaderCardOutline2></HeaderCardOutline2>
+      <Box sx={{ pt: 2 }}>{/* <FixedSpacing /> */}</Box>
     </div>
   );
 }
-
 export default App;
