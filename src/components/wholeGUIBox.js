@@ -4,12 +4,14 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import HeaderCardOutline from './headerCard';
 import OutlinedCard from './masonryCardImages';
+import FooterCardOutline from './footerCard';
 
 const card = (
   <React.Fragment>
     <CardContent>
       <HeaderCardOutline />
       <OutlinedCard />
+      <FooterCardOutline />
     </CardContent>
   </React.Fragment>
 );

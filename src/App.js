@@ -1,6 +1,8 @@
 /* import FixedSpacing from './components/masonryUI'; */
 import Box from '@mui/material/Box';
 import HeaderCardOutline2 from './components/wholeGUIBox';
+import { theme } from './theme';
+import { ThemeProvider } from '@mui/material/styles';
 
 function App() {
   return (
@@ -12,8 +14,13 @@ function App() {
         left: '50%',
         transform: 'translate(-50%, -50%)',
       }}>
-      <HeaderCardOutline2></HeaderCardOutline2>
-      <Box sx={{ pt: 2 }}>{/* <FixedSpacing /> */}</Box>
+      {/* <Box sx={{ pt: 2 }}>
+        {' '}
+        <FixedSpacing />{' '}
+      </Box> */}
+      <ThemeProvider theme={theme}>
+        <HeaderCardOutline2></HeaderCardOutline2>
+      </ThemeProvider>
     </div>
   );
 }

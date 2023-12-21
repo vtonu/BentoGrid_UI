@@ -17,7 +17,7 @@ const Label = styled(Paper)(({ theme }) => ({
 
 export default function FixedSpacing() {
   return (
-    <Box sx={{ width: 550, pt: 2 }}>
+    <Box sx={{ width: 520, pt: 2 }}>
       <Masonry columns={3} spacing={1}>
         {itemData.map((item, index) => (
           <div key={index}>
@@ -39,5 +39,5 @@ const itemData = [
   'https://funmauj.b-cdn.net/test/506460.jpg',
   'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUCNwujpuh1p90FgjGLsnn4B4l5hkQP-Jgcg&usqp=CAU',
   'https://w0.peakpx.com/wallpaper/944/610/HD-wallpaper-michael-gta-5-gta-5-gta-v-games.jpg',
-  'https://w0.peakpx.com/wallpaper/944/610/HD-wallpaper-michael-gta-5-gta-5-gta-v-games.jpg',
+  'https://www.chromethemer.com/download/hd-wallpapers/gta-5-trunk-2560x1440.jpg',
 ];
