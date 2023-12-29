@@ -1,4 +1,4 @@
-React App + Material UI (BentoGrid Style w/ Masonry Cards)
+React App + Material UI (BentoGrid Style w/ Masonry Cards) v0.3
 
 ![image](https://github.com/vtonu/BentoGrid_UI/assets/56773210/afef7c4d-3c39-44bf-a81c-5141a28c0a8c)
 
