@@ -17,7 +17,11 @@ const card = (
           sx={{
             pl: 1,
           }}>
-          <Button variant="outlined" sx={{ color: '#fbc02d' }} color="error" size="small">
+          <Button
+            variant="outlined"
+            sx={{ color: '#fbc02d', width: '100px' }}
+            color="error"
+            size="small">
             ABOUT
           </Button>
         </Box>
@@ -25,24 +29,12 @@ const card = (
           sx={{
             pl: 1,
           }}>
-          <Button variant="outlined" sx={{ color: '#fbc02d' }} color="error" size="small">
-            CREDITS
-          </Button>
-        </Box>
-        <Box
-          sx={{
-            pl: 1,
-          }}>
-          <Button variant="outlined" sx={{ color: '#fbc02d' }} color="error" size="small">
-            DISABLE
-          </Button>
-        </Box>
-        <Box
-          sx={{
-            pl: 1,
-          }}>
-          <Button variant="outlined" sx={{ color: '#fbc02d' }} color="error" size="small">
-            CLOSE
+          <Button
+            variant="outlined"
+            sx={{ color: '#fbc02d', width: '100px' }}
+            color="error"
+            size="small">
+            DISCORD
           </Button>
         </Box>
       </Box>

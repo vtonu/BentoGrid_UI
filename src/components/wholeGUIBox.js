@@ -8,10 +8,10 @@ import FooterCardOutline from './footerCard';
 
 const card = (
   <React.Fragment>
-    <CardContent>
+    <CardContent sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       <HeaderCardOutline />
       <OutlinedCard />
-      <FooterCardOutline />
+      {/* <FooterCardOutline /> */}
     </CardContent>
   </React.Fragment>
 );

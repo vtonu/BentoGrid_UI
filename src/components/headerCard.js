@@ -2,8 +2,7 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import Button from '@mui/material/Button';
-import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
+import Typography from '@mui/material/Typography';
 
 const card = (
   <React.Fragment>
@@ -11,50 +10,20 @@ const card = (
       <Box
         sx={{
           display: 'flex',
-          justifyContent: 'space-between',
+          flexDirection: 'column',
+          alignItems: 'center',
         }}>
-        <Box
-          sx={{
-            pl: 1,
-          }}>
-          <Button variant="outlined" sx={{ color: '#fbc02d' }} color="error" size="small">
-            Safe
-          </Button>
-        </Box>
-        <Box
-          sx={{
-            pl: 1,
-          }}>
-          <Button variant="outlined" sx={{ color: '#fbc02d' }} color="error" size="small">
-            Disk
-          </Button>
-        </Box>
-        <Box
-          sx={{
-            pl: 1,
-          }}>
-          <Button variant="outlined" sx={{ color: '#fbc02d' }} color="error" size="small">
-            Info
-          </Button>
-        </Box>
-        <Box
-          sx={{
-            pl: 1,
-          }}>
-          <Button variant="outlined" sx={{ color: '#fbc02d' }} color="error" size="small">
-            Storage
-          </Button>
-        </Box>
-
-        <Box>
-          <Button
-            variant="outlined"
-            sx={{ color: '#fbc02d', minWidth: 0 }}
-            color="error"
-            size="small">
-            <CloseOutlinedIcon sx={{ color: '#fbc02d', p: 0.5 }}></CloseOutlinedIcon>
-          </Button>
-        </Box>
+        <img src={require('./saeslogo.png')} width="150" alt="saeslogo" />
+        <Typography variant="h4" sx={{ color: '#fbc02d', pt: 2 }}>
+          A New GTA V Experience
+        </Typography>
+        <Typography variant="h5" sx={{ color: '#white', fontWeight: 'bold' }}>
+          Powered by RAGEMP
+        </Typography>
+        <Typography variant="subtitle1" sx={{ color: '#white', pt: 2 }}>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie
+          ipsum et, consequat nibh.
+        </Typography>
       </Box>
     </CardContent>
   </React.Fragment>
