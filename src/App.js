@@ -1,5 +1,4 @@
 /* import FixedSpacing from './components/masonryUI'; */
-import Box from '@mui/material/Box';
 import HeaderCardOutline2 from './components/wholeGUIBox';
 import { theme } from './theme';
 import { ThemeProvider } from '@mui/material/styles';
