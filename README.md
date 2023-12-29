@@ -1,6 +1,6 @@
 React App + Material UI (BentoGrid Style w/ Masonry Cards)
 
-![image](https://github.com/vtonu/BentoGrid_UI/assets/56773210/23e086fe-a143-4ae1-acd2-3dfa11525214)
+![image](https://github.com/vtonu/BentoGrid_UI/assets/56773210/621423bb-754d-4696-b5e6-c02a14c235a5)
 
 ## Available Scripts
 
