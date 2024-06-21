@@ -30,11 +30,10 @@ export default function FixedSpacing() {
 }
 
 const itemData = [
-  'https://www.chromethemer.com/wallpapers/chromebook-wallpapers/images/960/trevor-gta-5-chromebook-wallpaper.jpg',
-  'https://e0.pxfuel.com/wallpapers/820/662/desktop-wallpaper-gta-v-city-buildings-art-u-gta-5-city.jpg',
-  'https://e1.pxfuel.com/desktop-wallpaper/248/271/desktop-wallpaper-gta-v-iphone-trick-gta-5-phone.jpg',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUCNwujpuh1p90FgjGLsnn4B4l5hkQP-Jgcg&usqp=CAU',
-  'https://www.chromethemer.com/download/hd-wallpapers/gta-5-trunk-2560x1440.jpg',
-  'https://funmauj.b-cdn.net/test/506460.jpg',
-  'https://w0.peakpx.com/wallpaper/944/610/HD-wallpaper-michael-gta-5-gta-5-gta-v-games.jpg',
+  'https://images.hindustantimes.com/tech/img/2024/06/20/960x540/GTA_6_launch_detail_1718880389070_1718880389479.png',
+  'https://videogames.si.com/.image/ar_1.91%2Cc_fill%2Ccs_srgb%2Cg_faces:center%2Cq_auto:good%2Cw_1200/MjAyNjkwMjEwODMwNDkyNjg0/gta-6-highway-1.png',
+  'https://images.hindustantimes.com/tech/img/2024/06/20/960x540/GTA_6_launch_detail_1718880389070_1718880389479.png',
+  'https://images.hindustantimes.com/tech/img/2024/06/12/960x540/GTA_6_Trailer_2_expected_soon_1718191446863_1718191447601.png',
+  'https://gta6intel.com/wp-content/uploads/2024/05/Lucia-and-Jason-Guns-Out-Robbing-Store-in-GTA-6.jpg',
+  'https://videogames.si.com/.image/ar_1.91%2Cc_fill%2Ccs_srgb%2Cg_faces:center%2Cq_auto:good%2Cw_1200/MjAyNjkwMjEwODMwNDkyNjg0/gta-6-highway-1.png',
 ];

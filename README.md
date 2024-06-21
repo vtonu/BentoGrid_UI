@@ -1,6 +1,7 @@
-📒 React + MUI (Bento Grid w/ Masonry Cards) v0.3
+📒 React + MUI (Bento Grid w/ Masonry Cards) v0.4
 
-![image](https://github.com/vtonu/BentoGrid_UI/assets/56773210/afef7c4d-3c39-44bf-a81c-5141a28c0a8c)
+![image](https://github.com/vtonu/BentoGrid_UI/assets/56773210/136c52bc-8d2a-4ead-bfda-b8caa6375634)
+
 ## Available Scripts
 
 ### `npm start`

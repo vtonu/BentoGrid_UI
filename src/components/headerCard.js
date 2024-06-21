@@ -17,16 +17,16 @@ const card = (
           flexDirection: 'column',
           alignItems: 'center',
         }}>
-        <img src={require('./saeslogo.png')} width="150" alt="saeslogo" />
-        <Typography variant="h4" sx={{ color: '#fbc02d', pt: 2 }} fontWeight={300}>
-          A New GTA V Experience
+        <img src={require('./logo.png')} width="50" alt="logo" />
+        <Typography variant="h4" sx={{ color: 'pink', pt: 2 }} fontWeight={300}>
+          A New GTA VI Experience
         </Typography>
         <Typography variant="h5" sx={{ color: '#white' }} fontWeight={700}>
-          Powered by RAGEMP
+          Powered by SIX Multiplayer
         </Typography>
         <Typography variant="subtitle1" sx={{ color: '#white', pt: 2 }} fontWeight={300}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie
-          ipsum et, consequat nibh.
+          Welcome to the new GTA VI multiplayer experience. We are currently in development and will
+          be releasing soon.
         </Typography>
       </Box>
     </CardContent>
