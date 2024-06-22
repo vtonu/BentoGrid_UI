@@ -25,8 +25,7 @@ const card = (
           Powered by SIX Multiplayer
         </Typography>
         <Typography variant="subtitle1" sx={{ color: '#white', pt: 2 }} fontWeight={300}>
-          Welcome to SIX Multiplayer, the new GTA VI Experience. We are currently in development.
-          Stay tuned for updates!
+          Welcome to SIX Multiplayer! We are currently in development. Stay tuned for updates!
         </Typography>
       </Box>
     </CardContent>

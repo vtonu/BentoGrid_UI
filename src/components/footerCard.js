@@ -20,7 +20,7 @@ const card = (
           <Button
             variant="outlined"
             sx={{ color: '#FFC0CB', width: '100px' }}
-            color="error"
+            color="secondary"
             size="small">
             HOME
           </Button>
@@ -32,7 +32,7 @@ const card = (
           <Button
             variant="outlined"
             sx={{ color: '#FFC0CB', width: '100px' }}
-            color="error"
+            color="secondary"
             size="small">
             SETTINGS
           </Button>
@@ -44,7 +44,7 @@ const card = (
           <Button
             variant="outlined"
             sx={{ color: '#FFC0CB', width: '100px' }}
-            color="error"
+            color="secondary"
             size="small">
             QUIT
           </Button>

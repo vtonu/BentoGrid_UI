@@ -3,18 +3,25 @@ import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 
+const pinkBox = {
+  '&:hover': {
+    border: '1px solid pink',
+    borderRadius: '3px',
+  },
+};
+
 export default function OutlinedCard({ imageUrl }) {
   return (
-    <Box sx={{ minWidth: 150, boxShadow: 1 }}>
-      <Card variant="outlined">
-        <CardContent sx={{ padding: 0.9 }}>
+    <Box sx={pinkBox}>
+      <Card variant="outlined" sx={{ pinkBox }}>
+        <CardContent sx={{ padding: 0.8 }}>
           <img
             src={imageUrl}
             alt="Outlined Card"
             style={{
               width: '100%',
               height: '100%',
-              objectFit: 'fill',
+              objectFit: 'cover',
             }}
           />
         </CardContent>
