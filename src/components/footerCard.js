@@ -19,10 +19,10 @@ const card = (
           }}>
           <Button
             variant="outlined"
-            sx={{ color: '#fbc02d', width: '100px' }}
+            sx={{ color: '#FFC0CB', width: '100px' }}
             color="error"
             size="small">
-            ABOUT
+            HOME
           </Button>
         </Box>
         <Box
@@ -31,10 +31,22 @@ const card = (
           }}>
           <Button
             variant="outlined"
-            sx={{ color: '#fbc02d', width: '100px' }}
+            sx={{ color: '#FFC0CB', width: '100px' }}
             color="error"
             size="small">
-            DISCORD
+            SETTINGS
+          </Button>
+        </Box>
+        <Box
+          sx={{
+            pl: 1,
+          }}>
+          <Button
+            variant="outlined"
+            sx={{ color: '#FFC0CB', width: '100px' }}
+            color="error"
+            size="small">
+            QUIT
           </Button>
         </Box>
       </Box>

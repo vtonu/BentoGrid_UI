@@ -5,7 +5,7 @@ import CardContent from '@mui/material/CardContent';
 
 const bull = (
   <Box component="span" sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}>
-    •
+    1
   </Box>
 );
 

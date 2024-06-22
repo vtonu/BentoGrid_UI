@@ -11,7 +11,7 @@ const card = (
     <CardContent sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       <HeaderCardOutline />
       <OutlinedCard />
-      {/* <FooterCardOutline /> */}
+      <FooterCardOutline />
     </CardContent>
   </React.Fragment>
 );
